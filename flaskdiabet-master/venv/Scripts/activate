@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\MACHINE LEARNING\flaskdiabet-master\venv"
+VIRTUAL_ENV="D:\Prediksi_Diabetes\flaskdiabet-master\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
