@@ -3,9 +3,12 @@ import pickle
 import sklearn
 import numpy as np                        # numpy==1.19.3
 
-app = Flask(__name__)
+app=Flask(__name__, template_folder='templates')
+
+# app = Flask(__name__)
 
 @app.route('/', methods=['POST', 'GET'])
+
 def index():
     if request.method == 'POST':
 
